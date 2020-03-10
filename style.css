@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  margin: 50px;
+
+  column-gap: 5px;
+}
+img {
+  width: 200px;
+  height: 150px;
+}
